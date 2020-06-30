@@ -1,0 +1,15 @@
+[package]
+name = "app"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[[bin]]
+name = "app"
+path = "app/main.rs"
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+reqwest = { version = "0.10", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "0.2", features = ["full"] }
