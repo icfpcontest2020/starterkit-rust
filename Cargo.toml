@@ -10,3 +10,4 @@ path = "app/main.rs"
 
 [dependencies]
 isahc = "0.6"
+openssl = { version = "0.10", features = ["vendored"] }
