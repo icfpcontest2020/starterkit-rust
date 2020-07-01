@@ -1,0 +1,1 @@
+When submitting, don't forget to run `cargo vendor` and commit your dependencies in the `./vendor` folder.
